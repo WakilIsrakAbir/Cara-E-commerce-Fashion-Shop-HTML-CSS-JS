@@ -61,6 +61,10 @@ body{
     width: 100%;
 }
 
+/* Home Page Style*/
+
+/* Home Page Style*/
+
 /* Header Start */
 
 #header{
@@ -121,7 +125,6 @@ body{
     display: none;
 }
 
-/* Home Page */
 
 #hero{
     background-image: url("/Images/hero4.png");
@@ -665,9 +668,9 @@ footer .copyright{
  
 }
 
-@media(max-width:420px){
+@media(max-width:477px){
     #newsletter {
-        height: 25vh;
+        height: 35vh;
     }
 
     #newsletter .form {
@@ -684,4 +687,125 @@ footer .copyright{
         width: 100%;
     }
 
+    /* Media For Single Product Page */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right:0px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+}
+
+/* Style For Shop Page */
+/* Style For Shop Page */
+
+/* Header */
+
+#page-header{
+    background-image: url("/Images/banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#page-header  h2,
+#page-header p{
+    color: white;
+}
+
+
+/* Pagination */
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Single Product Details */
+/* Single Product Details */
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-image-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+   font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: white;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
 }
