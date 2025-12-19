@@ -461,6 +461,7 @@ body{
     background-position: 20% 30%;
     background-color: #041e42;
     padding-top: 20px;
+    height:30vh;
 }
 
 #newsletter .newstext h4{
@@ -906,4 +907,5 @@ footer .copyright{
     color: rgb(148, 128, 128);
     z-index: -9;
 }
+
 
