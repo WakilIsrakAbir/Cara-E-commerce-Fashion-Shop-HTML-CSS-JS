@@ -701,6 +701,31 @@ footer .copyright{
     #prodetails .single-pro-details {
         width: 100%;
     }
+
+    /* Media For Blog */
+
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details {
+        width: 100%;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-bottom: 90px;
+        position: relative;
+    }
 }
 
 /* Style For Shop Page */
@@ -881,3 +906,4 @@ footer .copyright{
     color: rgb(148, 128, 128);
     z-index: -9;
 }
+
