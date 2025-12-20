@@ -1221,5 +1221,19 @@ footer .copyright{
         width: 100%;
         margin-bottom: 30px;
     }
+
+    /* Media for Add-Cart */
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #cart-add #coupon {
+        width: 100%;
+    }
+
+    #cart-add #subtottal {
+        width: 100%;
+    }
 }
+
 
